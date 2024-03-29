@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "nodenext",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ESNext"
+    ],
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "baseUrl": "./src",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
